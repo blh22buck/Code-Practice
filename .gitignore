@@ -1,0 +1,6 @@
+#ignore files below
+**/.idea
+**/out
+/.idea
+/out
+*.iml
