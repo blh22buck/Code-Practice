@@ -12,7 +12,7 @@ Packages listed below
 ## Is_Prime
 * Enter a positive integer and the program will print out every prime number up to that integer.
 * Enter any other character to end the program
-* Includes a Test Suite as well
+Includes JUnit Test Suite
 
 ## TV_CodeTest_Intuit
 Implement a Class for a Television having channel numbers match to channel names.
@@ -20,7 +20,7 @@ Implement a Class for a Television having channel numbers match to channel names
 ex: ESPN, 724
 <br />
 <br />
-Includes JUnit Tests
+Includes JUnit Test Suite
 <br />
 * Functions
   * Channel up
