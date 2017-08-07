@@ -10,6 +10,10 @@ Multiple coding exercises in Java to keep my brain fresh :)
 Implement a Class for a Television having channel numbers match to channel names.
 <br />
 ex: ESPN, 724
+<br />
+<br />
+Includes JUnit Tests
+<br />
 * Functions
   * Channel up
   * Channel down
