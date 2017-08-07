@@ -9,13 +9,15 @@ import java.io.InputStreamReader;
 public class Is_Prime {
 
     public static void main(String []args) throws Exception{
-        boolean goAgain = true;
+
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        System.out.println("-------------------------------");
         System.out.println("This program will let you know if an integer is prime or not. ");
         do {
-            System.out.println("Please enter a number to determine if it is prime and hit ENTER.");
+            System.out.println();
+            System.out.println("-------------------------------");
+            System.out.println();
+            System.out.println("Please enter a number and the program will print all primes up until to the number provided.");
             System.out.println("Or enter a letter to end the program.");
             System.out.print("Number: ");
             String input = reader.readLine();
@@ -23,17 +25,13 @@ public class Is_Prime {
                 break;
             }
             int userInt = Integer.parseInt(input);
-            if(isPrime(userInt)){
-                System.out.println(userInt+" is prime");
-            } else {
-                System.out.println(userInt+" is NOT prime");
-            }
-
+            printAllPrimes1toParam(userInt);
         }while (true);
+        System.out.println("Program Ending...");
     }
 
     public static boolean isPrime(int n){
-        if (n < 0)
+        if (n < 2)
             return false;
         if(n == 2 || n == 3)
             return true;
@@ -46,5 +44,18 @@ public class Is_Prime {
         }
         return true;
     }
+
+    public static void printAllPrimes1toParam(int param){
+        if(! (param > 1)){ //if it's not greater than 1
+            System.out.print("Your number must be larger than 1");
+            return;
+        }
+        for(int i=2; i<=param; i++){
+            if(isPrime(i)){
+                System.out.print(i+" ");
+            }
+        }
+    }
+
 
 }

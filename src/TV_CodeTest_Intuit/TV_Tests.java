@@ -12,7 +12,7 @@ import static junit.framework.TestCase.assertEquals;
 /**
  * Created by B on 7/30/2017.
  */
-public class Tests {
+public class TV_Tests {
     private Television tv;
 
     @Before //before each test
