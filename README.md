@@ -1,5 +1,7 @@
 # Code-Practice
-Multiple coding exercises in Java to keep my brain fresh :) 
+Multiple coding exercises in Java to keep my brain fresh :)
+<br />
+Packages listed below
 
 ## FitBit_Exercises
 * Reverse a String with recursion
