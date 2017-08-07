@@ -1,6 +1,7 @@
 # Code-Practice
 Multiple coding exercises in Java to keep my brain fresh :)
 <br />
+<br />
 Packages listed below
 
 ## FitBit_Exercises
