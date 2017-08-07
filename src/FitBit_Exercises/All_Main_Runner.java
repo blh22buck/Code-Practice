@@ -1,4 +1,4 @@
-package FitBit_Excercises;
+package FitBit_Exercises;
 
 /**
  * Created by B on 8/7/2017.
